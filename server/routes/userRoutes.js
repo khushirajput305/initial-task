@@ -10,7 +10,7 @@ router.post('/create', userController.createUser);
 router.get('/get', userController.getUsers);
 
 // PUT update an existing user
-router.put('/:id', userController.updateUser);
+router.put('/update', userController.updateUser);
 
 
 
